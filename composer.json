@@ -1,0 +1,29 @@
+{
+    "name": "zfsandbox/ZfSandbox",
+    "description": "Sandbox for learning Zend Framework",
+    "type": "library",
+    "keywords": [
+        "zfsandbox"
+    ],
+    "homepage": "https://github.com/dranzd/zfsandbox.git",
+    "authors": [
+        {
+            "name": "Dranzd Viper",
+            "email": "dranzd*at*gmail.com",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Catalog": "src/",
+            "CatalogManager": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
